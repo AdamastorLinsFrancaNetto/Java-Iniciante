@@ -45,7 +45,6 @@ public class Calculadora {
 					!sn.equalsIgnoreCase("n") &&
 					!sn.equalsIgnoreCase("não") &&
 					!sn.equalsIgnoreCase("nao"));	
-			
 		}
 		System.out.println("\nFIM DA OPERAÇÃO !!!");
 		input.close();

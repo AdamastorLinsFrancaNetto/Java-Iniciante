@@ -43,7 +43,6 @@ public class CondicaoDePagamento {
 		default:
 			System.out.printf("\nO valor a ser pago é R$ %.2f em até 10x", preco*1.1);
 		}
-		
 		input.close();
 	}
 

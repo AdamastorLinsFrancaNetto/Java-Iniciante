@@ -8,7 +8,6 @@ public class SePositivoOuNegativo {
 		
 		//Implemente um script Python para determinar se um dado número N informado pelo usuário é POSITIVO ou NEGATIVO.
 
-		
 		Scanner input = new Scanner(System.in);
 		
 		System.out.print("Informe um número: ");
