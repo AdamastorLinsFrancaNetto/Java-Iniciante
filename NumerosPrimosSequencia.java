@@ -1,4 +1,4 @@
-package exerciciosjava;
+package exercicios;
 
 import java.util.Scanner;
 
@@ -10,10 +10,9 @@ public class NumerosPrimosSequencia {
 
 		System.out.print("Até que número deseja saber os números primos existentes? ");
 		int nmax = input.nextInt();
+		
 		int count = 0;
-		
 		System.out.println("\n1");
-		
 		for(int n = 2; n <= nmax; n++) {
 			for (int i = 2; i < n; i++) {
 				if (n % i == 0) {
@@ -21,12 +20,12 @@ public class NumerosPrimosSequencia {
 				}
 			}
 			if (count == 0) {
-				System.out.println(n + " é primo.");
+				System.out.println(n + " é um número primo.");
 			} else {
 				System.out.println(n);
 			}
 		count=0;
 		}
-			input.close();		
+		input.close();		
 	}
 }

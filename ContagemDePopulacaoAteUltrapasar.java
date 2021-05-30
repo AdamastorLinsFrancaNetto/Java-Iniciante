@@ -1,4 +1,4 @@
-package exerciciosjava;
+package exercicios;
 
 public class ContagemDePopulacaoAteUltrapasar {
 	
